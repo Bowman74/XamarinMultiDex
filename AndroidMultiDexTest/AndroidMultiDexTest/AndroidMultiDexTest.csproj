@@ -71,10 +71,6 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
-    <Reference Include="Xamarin.GooglePlayServices.Drive, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Drive.29.0.0.1\lib\MonoAndroid41\Xamarin.GooglePlayServices.Drive.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -99,9 +95,9 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\AndroidMultiDex\AndroidMultiDex\AndroidMultiDex.csproj">
+    <ProjectReference Include="..\..\AndroidMultiDex\AndroidMultiDex\AndroidSupportMultiDex.csproj">
       <Project>{84ff4ab6-855f-4892-87be-1b2c6fb6c2be}</Project>
-      <Name>AndroidMultiDex</Name>
+      <Name>AndroidSupportMultiDex</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

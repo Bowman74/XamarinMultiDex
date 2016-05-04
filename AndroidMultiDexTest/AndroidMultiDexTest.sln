@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidMultiDexTest", "AndroidMultiDexTest\AndroidMultiDexTest.csproj", "{E3879458-3503-4591-8BD9-285125B7C72B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidMultiDex", "..\AndroidMultiDex\AndroidMultiDex\AndroidMultiDex.csproj", "{84FF4AB6-855F-4892-87BE-1B2C6FB6C2BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidSupportMultiDex", "..\AndroidMultiDex\AndroidMultiDex\AndroidSupportMultiDex.csproj", "{84FF4AB6-855F-4892-87BE-1B2C6FB6C2BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
